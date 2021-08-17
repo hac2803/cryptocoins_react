@@ -1,3 +1,15 @@
+# Github Pages
+1) Instalar el módulo de Github Pages en el proyecto:
+### `npm i gh-pages`
+2) Agregar en package.json:
+### "homepage": "https://[Github_User].github.io/[Repository_Name]/",
+3) Generar código a publicar (crea la carpeta build):
+### `npm run build`
+4) Agregar en package.json el siguiente script:
+### `"deploy": "gh-pages -d build"`
+5) Ejecutar el script de implementación en Github Pages:
+### `npm run deploy`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
